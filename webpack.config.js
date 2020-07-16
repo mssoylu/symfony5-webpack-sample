@@ -16,7 +16,7 @@ Encore
 
     /*
      * ENTRY CONFIG
-     *
+     *a
      * Add 1 entry for each "page" of your app
      * (including one that's included on every page - e.g. "app")
      *
@@ -32,7 +32,7 @@ Encore
 
     // will require an extra script tag for runtime.js
     // but, you probably want this, unless you're building a single-page app
-    .enableSingleRuntimeChunk()
+    .disableSingleRuntimeChunk()
 
     /*
      * FEATURE CONFIG
